@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/michalgornicki/react/static/css/main.ca5e57a4.css",
-    "main.js": "/michalgornicki/react/static/js/main.51171960.js",
-    "static/js/787.4e5f8b91.chunk.js": "/michalgornicki/react/static/js/787.4e5f8b91.chunk.js",
-    "index.html": "/michalgornicki/react/index.html",
-    "main.ca5e57a4.css.map": "/michalgornicki/react/static/css/main.ca5e57a4.css.map",
-    "main.51171960.js.map": "/michalgornicki/react/static/js/main.51171960.js.map",
-    "787.4e5f8b91.chunk.js.map": "/michalgornicki/react/static/js/787.4e5f8b91.chunk.js.map"
+    "main.css": "/react/static/css/main.ca5e57a4.css",
+    "main.js": "/react/static/js/main.ef19a6c3.js",
+    "static/js/787.4e5f8b91.chunk.js": "/react/static/js/787.4e5f8b91.chunk.js",
+    "index.html": "/react/index.html",
+    "main.ca5e57a4.css.map": "/react/static/css/main.ca5e57a4.css.map",
+    "main.ef19a6c3.js.map": "/react/static/js/main.ef19a6c3.js.map",
+    "787.4e5f8b91.chunk.js.map": "/react/static/js/787.4e5f8b91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca5e57a4.css",
-    "static/js/main.51171960.js"
+    "static/js/main.ef19a6c3.js"
   ]
 }
