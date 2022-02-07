@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400&display=swap');
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    overflow-x: hidden;
+    padding-bottom: 80vh;
+    height: auto;
+    background: linear-gradient(rgb(243, 196, 255), rgb(235, 155, 255), rgb(149, 147, 255));
+    background-attachment: fixed;
+}
+
+.js-item{
+    color:rgb(0, 0, 0);
+    font-size: 1.25rem;
+    background-color: white;
+    transition: 0.2s;
+    padding: 3vh;
+    margin-bottom: 4vh!important;
+    border: 1px solid rgb(240, 240, 240);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0.75rem;
+}
+
+.js-item:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.text-pink{
+    margin: auto;
+    padding: 0.5rem;
+    width: fit-content;
+    color:rgb(229, 125, 255)!important;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.link-style{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.link-style:hover{
+    color: rgb(229, 125, 255);
+}
+
+@media only screen and (max-device-width: 600px), (max-width: 600px) {
+
+    .js-item{
+        width: 95%;
+    }
+
+}
