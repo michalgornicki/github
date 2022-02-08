@@ -16,14 +16,13 @@ class Car extends React.Component {
       color: "red",
 }}
 
-  render() {
-    return (
-      <div>
-        <h1>{this.state.brand}</h1>
-        <h1>{this.state.model}</h1>
-        <h1>{this.state.color}</h1>
-      </div>
-      )
+render() {
+  return (
+  <div>
+  <h1>{this.state.brand}</h1>
+  <h1>{this.state.model}</h1>
+  <h1>{this.state.color}</h1>
+  </div>
         `}</pre>
         </div>{" "}
         (Class components in React have built-in state object. It is not available in functional components. constructor() function will be called when the component gets initiated, it is place where you initiate the component's properties. super(props) function pass properties to this React component.)

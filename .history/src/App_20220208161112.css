@@ -35,7 +35,8 @@ body{
     padding: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color:rgb(87, 179, 255)!important;
+    color:rgb(161, 225, 255)!important;
+    background-color: rgb(0, 0, 58);
     font-size: 1.25rem;
     border-radius: 1rem;
     text-align: left!important;

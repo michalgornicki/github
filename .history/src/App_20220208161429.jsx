@@ -5,6 +5,8 @@ import { Route, HashRouter as Router, Routes, Link } from "react-router-dom";
 import Components from "./components/components.jsx";
 import State from "./components/state.jsx";
 import Lifecycle from "./components/lifecycle.jsx";
+import Refs from "./components/refs.jsx";
+import Fragments from "./components/fragments.jsx";
 import HOC from "./components/hoc.jsx";
 import Hooks from "./components/hooks.jsx";
 

@@ -19,9 +19,9 @@ class Car extends React.Component {
   render() {
     return (
       <div>
-        <h1>{this.state.brand}</h1>
-        <h1>{this.state.model}</h1>
-        <h1>{this.state.color}</h1>
+      <h1>{this.state.brand}</h1>
+      <h1>{this.state.model}</h1>
+      <h1>{this.state.color}</h1>
       </div>
       )
         `}</pre>
