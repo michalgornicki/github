@@ -21,11 +21,6 @@ useEffect(
   () => console.log("code updated!")
 );
 
-useEffect(() => {
-  console.log('mounted');
-  return () => console.log('unmounting...');
-}, [])  // <-- add this empty array here to run useEffect only once on mount
-
 //Cleaning after effect
 useEffect(() => {
   const subscription = props.source.subscribe();
@@ -72,8 +67,6 @@ const theme = useContext(ThemeContext);
           <pre>{`
 const [state, dispatch] = useReducer(reducer, initialArg, init);
 
-
-//example
 const initialState = {count: 0};
 
 function reducer(state, action) {
@@ -91,7 +84,7 @@ function Counter() {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <>
-      Counter: {state.count}
+      Co: {state.count}
       <button onClick={() => dispatch({type: 'decrement'})}>-</button>
       <button onClick={() => dispatch({type: 'increment'})}>+</button>
     </>
@@ -99,43 +92,7 @@ function Counter() {
 }
           `}</pre>
         </div>{" "}
-        (Reducer hook works similar to state hook but it is recommended when next state is dependent on previous state. UseReducer mechanism is similar to Redux.)
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useCallback: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useMemo: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useRef: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useLayoutEffect: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
+        (Reducer hook works similar to state hook but it is recommended when next state is dependent on previous state.)
       </div>
     </div>
   );

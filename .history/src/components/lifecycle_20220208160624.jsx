@@ -9,26 +9,22 @@ const Lifecycle = () => {
         <pre>{`
 Mounting - inserting elements into the DOM.
 
-  constructor()
-  static getDerivedStateFromProps()
-  ---
-  render()
-  ---
-  componentDidMount()
+    constructor()
+    static getDerivedStateFromProps()
+    render()
+    componentDidMount()
 
 Updating - updating components in the DOM.
 
-  static getDerivedStateFromProps()
-  shouldComponentUpdate()
-  ---
-  render()
-  ---
-  getSnapshotBeforeUpdate()
-  componentDidUpdate()
+    static getDerivedStateFromProps()
+    shouldComponentUpdate()
+    render()
+    getSnapshotBeforeUpdate()
+    componentDidUpdate()
 
 Unmounting - removing a component from the DOM.
 
-  componentWillUnmount()
+    componentWillUnmount()
 
           `}</pre>
         </div>(In components we can declare this specific methods that will execute code in selected phase of component lifecycle.)

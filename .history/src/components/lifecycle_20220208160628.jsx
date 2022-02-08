@@ -11,18 +11,14 @@ Mounting - inserting elements into the DOM.
 
   constructor()
   static getDerivedStateFromProps()
-  ---
   render()
-  ---
   componentDidMount()
 
 Updating - updating components in the DOM.
 
   static getDerivedStateFromProps()
   shouldComponentUpdate()
-  ---
   render()
-  ---
   getSnapshotBeforeUpdate()
   componentDidUpdate()
 

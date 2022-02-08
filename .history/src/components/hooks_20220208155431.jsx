@@ -106,33 +106,7 @@ function Counter() {
         <div className="">useCallback: </div>
         <div className="text-color">
           <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useMemo: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useRef: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useLayoutEffect: </div>
-        <div className="text-color">
-          <pre>{`
+const theme = useContext(ThemeContext);
           `}</pre>
         </div>{" "}
         ()

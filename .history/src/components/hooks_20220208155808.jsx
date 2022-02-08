@@ -130,7 +130,7 @@ function Counter() {
       </div>
       <div className="js-item">
         {" "}
-        <div className="">useLayoutEffect: </div>
+        <div className="">useRef: </div>
         <div className="text-color">
           <pre>{`
           `}</pre>

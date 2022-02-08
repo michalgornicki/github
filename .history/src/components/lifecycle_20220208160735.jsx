@@ -22,7 +22,6 @@ Updating - updating components in the DOM.
   shouldComponentUpdate()
   ---
   render()
-  ---
   getSnapshotBeforeUpdate()
   componentDidUpdate()
 

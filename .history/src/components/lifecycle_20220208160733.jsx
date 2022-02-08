@@ -20,9 +20,7 @@ Updating - updating components in the DOM.
 
   static getDerivedStateFromProps()
   shouldComponentUpdate()
-  ---
   render()
-  ---
   getSnapshotBeforeUpdate()
   componentDidUpdate()
 

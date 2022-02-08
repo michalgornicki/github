@@ -101,42 +101,6 @@ function Counter() {
         </div>{" "}
         (Reducer hook works similar to state hook but it is recommended when next state is dependent on previous state. UseReducer mechanism is similar to Redux.)
       </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useCallback: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useMemo: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useRef: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useLayoutEffect: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
     </div>
   );
 };

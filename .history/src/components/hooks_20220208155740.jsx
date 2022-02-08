@@ -128,15 +128,6 @@ function Counter() {
         </div>{" "}
         ()
       </div>
-      <div className="js-item">
-        {" "}
-        <div className="">useLayoutEffect: </div>
-        <div className="text-color">
-          <pre>{`
-          `}</pre>
-        </div>{" "}
-        ()
-      </div>
     </div>
   );
 };
