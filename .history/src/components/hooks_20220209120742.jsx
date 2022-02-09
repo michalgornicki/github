@@ -158,7 +158,7 @@ function Counter() {
         This hook gets executed right after a render(), and before useEffect() gets triggered.
         It gets triggered synchronously after all DOM mutation.
         It is designed for DOM mutation.
-        This hook makes changes to a DOM directly before the browser paint website.
+        This hook make changes to a DOM node directly before the browser has a chance to paint.
       </div>
     </div>
   );

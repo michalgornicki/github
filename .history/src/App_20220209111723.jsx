@@ -24,12 +24,10 @@ const App = () => {
           <Link className="link-style m-3" to="/State">
             State (w Redux)
           </Link>
-          <Link className="link-style m-3" to="/Hooks">
-            Hooks
-          </Link>
           <Link className="link-style m-3" to="/HOC">
             Higher Order Components
           </Link>
+
         </div>
 
         <Routes>

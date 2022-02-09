@@ -35,8 +35,7 @@ useEffect(() => {
 });
           `}</pre>
         </div>{" "}
-        Effect hook execute function or functions after every render of its component.
-        React is cleaning buffer from effects from previous renders before new execution of useEffect.
+        Effect hook execute function or functions after every render of its component. React is cleaning buffer from effects from previous renders before new execution of useEffect.
       </div>
       <div className="js-item">
         {" "}
@@ -155,10 +154,9 @@ function Counter() {
           `}</pre>
         </div>{" "}
         It is similar to useEffect hook.
-        This hook gets executed right after a render(), and before useEffect() gets triggered.
-        It gets triggered synchronously after all DOM mutation.
-        It is designed for DOM mutation.
-        This hook makes changes to a DOM directly before the browser paint website.
+        it gets executed right after a React component render lifecycle, and before useEffect gets triggered.
+
+
       </div>
     </div>
   );

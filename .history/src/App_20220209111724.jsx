@@ -30,6 +30,7 @@ const App = () => {
           <Link className="link-style m-3" to="/HOC">
             Higher Order Components
           </Link>
+
         </div>
 
         <Routes>
