@@ -39,7 +39,7 @@ const App = () => (
         `}
         </pre>
         </div>{" "}
-        High Order Component gets component as argument and returns another component.
+        High Order Component gets componen.
       </div>
     </div>
   );

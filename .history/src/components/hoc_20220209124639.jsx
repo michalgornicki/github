@@ -30,16 +30,10 @@ const Username = (props) => (
 
 const UpperCaseUsername = hoc(Username)
 
-const App = () => (
-  <div>
-    <UpperCaseUsername>Kingsley</UpperCaseUsername>
-  </div>
-);
-
         `}
         </pre>
         </div>{" "}
-        High Order Component gets component as argument and returns another component.
+        Function takes another function as parameter, which is executed asynchronously, only after execution of primary function.
       </div>
     </div>
   );

@@ -110,6 +110,7 @@ store.dispatch({ type: 'counter/decremented' })
 // {value: 1}
           `}</pre>
         </div>
+        With this method you can change state of component. Don't try to change state with "this.state=", because it will generate problems with code.
       </div>
     </div>
   );
