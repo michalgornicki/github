@@ -35,9 +35,8 @@ useEffect(() => {
 });
           `}</pre>
         </div>{" "}
-        Effect hook execute function or functions after every render of its component by default. <br/><br/>
-        When added empty array [] as the dependency the side-effect runs once after the initial rendering. <br/><br/>
-        When added [props, state] as the dependency the side-effect runs once after initial rendering and later only after any depenendecy value changes. <br/> <br/>
+        Effect hook execute function or functions after every render of its component by default.
+        When added empty array  the side-effect runs once after the initial rendering.
         React is cleaning buffer from effects from previous renders before new execution of useEffect.
       </div>
       <div className="js-item">
